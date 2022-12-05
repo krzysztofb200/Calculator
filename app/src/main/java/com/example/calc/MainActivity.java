@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 if (getNumbers()) {
                     double x = num1 + num2;
                     t1.setText(Double.toString(x));
-                } else {
-                    t1.setText("Podano zle wartosci");
                 }
             }
         });
@@ -42,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 if (getNumbers()) {
                     double x = num1 - num2;
                     t1.setText(Double.toString(x));
-                } else {
-                    t1.setText("Podano zle wartosci");
                 }
             }
         });
@@ -55,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 if (getNumbers()) {
                     double x = num1 * num2;
                     t1.setText(Double.toString(x));
-                } else {
-                    t1.setText("Podano zle wartosci");
                 }
             }
         });
@@ -68,8 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 if (getNumbers()) {
                     double x = num1 / num2;
                     t1.setText(Double.toString(x));
-                } else {
-                    t1.setText("Podano zle wartosci");
                 }
             }
         });
@@ -81,8 +73,6 @@ public class MainActivity extends AppCompatActivity {
                 if (getNumbers()) {
                     double x = Math.pow(num1, num2);
                     t1.setText(Double.toString(x));
-                } else {
-                    t1.setText("Podano zle wartosci");
                 }
             }
         });
@@ -94,8 +84,6 @@ public class MainActivity extends AppCompatActivity {
                 if (getNumbers()) {
                     double x = num1 % num2;
                     t1.setText(Double.toString(x));
-                } else {
-                    t1.setText("Podano zle wartosci");
                 }
             }
         });
